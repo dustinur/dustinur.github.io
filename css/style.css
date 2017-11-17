@@ -1,0 +1,30 @@
+body {
+  position: relative;
+  background: #1B0726;
+  color: #999;
+}
+
+.navFooter {
+  color: white;
+  background: #1B0726;
+}
+
+.titleColor {
+  color: #E8B71F;
+}
+
+.titleColor1 {
+  color: white;
+}
+
+.profile {
+  border-radius: 5em;
+  position: relative;
+}
+
+.jumbotron {
+  background: #1B0726 url("../img/nmJumbo1.jpg") no-repeat center bottom;
+  height: 100%;
+  background-size: auto;
+  overflow: hidden;
+}
