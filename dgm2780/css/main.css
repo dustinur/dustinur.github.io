@@ -1,0 +1,166 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.jumbotron {
+	background-color:#E9E3CB;
+	}
+
+.panel-custom {
+	background-color:#E9E3CB;
+	}
+	
+	
+/* CUSTOMIZE BUTTONS
+-------------------------------------------------- */
+
+.btn-custom {
+	color:#3F3F3F;
+	background:#E9E3CB;
+	border-color:#000000;
+	}
+	
+.btn-custom2 {
+	color:#FFF;
+	background:#4E0001;
+	border-color:#FFF;
+	}
+		
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.custom-nav {
+	background:#4E0001;
+	}
+.navbar-brand {
+	padding-top:5px;
+	padding-bottom:5px;
+	}	
+
+.navbar-default .btn-custom > .active > a, 
+.navbar-default .btn-custom > .active > a:hover, 
+.navbar-default .btn-custom > .active > a:focus {
+    color: #000000;
+    background-color: #E9E3CB;
+}
+
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000000;
+    background-color: #B7AD84;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #FFF;
+    background-color: #B7AD84;
+}	 	
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  width: 100%;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	margin:auto;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 465px;
+  background-color: #777;  
+}
+
+.carousel-inner > .item > img {
+   left: -9999px;  /*important */
+   right: -9999px;  /*important */
+   margin: 0 auto;  /*important */
+   max-width: none;  /*important */
+   min-width: 100%;
+   position: absolute;
+   min-width: none;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #4E0001;
+}
+
+.footer p {
+  padding-top: 14px;			
+  text-align:center;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
