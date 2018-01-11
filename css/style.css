@@ -1,9 +1,14 @@
 body {
-  position: relative;
-  background: #1B0726;
+  background: #100221;
   color: #999;
 }
 
+a {
+  color: #FFFDA5;
+}
+.navbar-link {
+  color: black;
+}
 .card {
   background: black;
   margin: 0 auto;
@@ -11,8 +16,41 @@ body {
   margin-bottom: 1em;
 }
 
+.btn {
+  border-color: #FFFDA5;
+  background-color: #FFFDA5;
+  color: black;
+}
+
+
+.btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    background-color: #FFFDA5;
+    background-image: none;
+    border-color: #FFFDA5;
+}
+
+.btn-primary:hover {
+    border-color: #FFFDA5;
+    background-color: #FFFDA5;
+    border-color: #FFFDA5;
+}
+
+.btn.active, .btn:active {
+    background-image: none;
+}
+
+.btn:focus, .btn:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFDA5;
+    text-decoration: underline;
+}
+
+
 .jumbotron {
-  background: #1B0726 url("../img/nmJumbo2.jpg") no-repeat center bottom;
+  background: #100221 url("../img/nmJumbo2.jpg") no-repeat center bottom;
   height: 100%;
   background-size: auto;
   overflow: hidden;
@@ -20,7 +58,7 @@ body {
 
 .navFooter {
   color: white;
-  background: #1B0726;
+  background: #100221;
 }
 
 .profile {
@@ -29,7 +67,7 @@ body {
 }
 
 .titleColor {
-  color: #E8B71F;
+  color: #FFFDA5;
 }
 
 .titleColor1 {
