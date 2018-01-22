@@ -1,0 +1,214 @@
+/*----- SASS Variables -----*/
+$mainFont: #000;
+$secondFont: #065975;
+
+
+/*-----Prevents iPhone from resizing in landscape mode -----*/
+html {-webkit-text-size-adjust: none; }
+
+
+
+/*----------- apply a nSatural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+/*-----BODY -----*/
+body {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+
+
+
+
+
+/*-----HEADER -----*/
+#headerWrapper {
+	min-width: 320px;
+}
+header img {
+	float: left;
+	margin: 0 2% ;
+	width: 40%;
+}
+header h1 {
+	font-weight: 700;
+	font-size:2.8em;
+	padding-top:1.0em;
+	color: $mainFont;
+}
+header h2 {
+	float: left;
+	font-size:1.1em;
+	padding-top:.1em;
+	color: $mainFont;
+}
+
+.centerlize {
+	img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	padding: 1em;
+	}
+}
+
+
+/*-----NAVigation -----*/
+a:active {
+	background-color: $secondFont;
+}
+
+
+/*search*/
+div.search {
+	position:absolute;
+	top: 7px;
+	right: 7px;
+	z-index:999;
+
+}
+
+div.search input {
+	width: 150px;;
+	border-radius: 5px;
+	border: solid 1px grey;
+	padding: .5em;
+	background-color: rgba(255,255,255,0.9);
+	color: $mainFont;
+}
+
+
+/*--------------CONTENT STUFF GOES HERE -------------------------*/
+#content {background-color: rgba(244,243,240,0.9);}
+
+#content h2 {
+	font-size: 2em;
+	padding: 1em 0 0 0;
+	margin: 0 2%;
+	color: $mainFont;
+	font-weight: 700;
+}
+#content h3 {
+	margin: .3em 0 .5em 0;
+	font-size: 1.5em;
+}
+
+#content p {
+	padding-top: .6em;
+}
+
+
+article {
+	margin: .9em 2%;
+	border-top: 1px solid #065975;
+}
+article figure {
+	/*THIS PREVENTS THE FIGURE FROM COLAPSING*/
+	overflow: hidden;
+	width: 100%;
+
+}
+article figure img {
+	width: 46%;
+	margin-right: 4%;
+	float: left;
+	border: 1px solid #060606;
+	display: block;
+}
+
+article figure figcaption {
+	display:inline;
+	width: 50%;
+	font-size: .7em;
+	color: #043243;
+	}
+
+
+
+/*----- FOOTER -----*/
+
+
+#footerWrapper {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+		height: 3em;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer a {
+	color: white;
+}
+
+footer {
+	.copyright {
+		float: right;
+		padding: 1em;
+
+	}
+}
+
+/* Style all font awesome icons */
+.fa {
+		float: left;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+// Admin Login?
+.fa-user {
+	float: right;
+	margin-right: auto;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
+}
+
+/* Google */
+.fa-google {
+    background: #db3236;
+    color: white;
+}
+
+
+
+/*----- OTHER -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footerClear {
+	padding: 1.5em;
+}

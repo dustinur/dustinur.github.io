@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+  <title>04cNews</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging whena phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!----- GOOGLE FONTS ----->
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+
+<!-- main css -->
+<link href="stylesheets/styles.css" rel="stylesheet">
+
+<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!------------ LATEST JQUERY FOR PHONE MENU ------------------>
+<script src="jquery.js"></script>
+
+<!------------ SCRIPT TO MAKE THE MOBILE NAV EXPAND DOWN ------------------>
+<script>
+	$(document).ready(function(){
+		$(".nav-button").click(function () {
+		$(".nav-button,.primary-nav").toggleClass("open");
+		});
+	});
+</script>
+
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<div id="headerWrapper">
+	<header class="clearfix">
+    <div class="search">
+        <form>
+        <input name="search" value="search..." type="text">
+        </form>
+     </div>
+
+    <img src="images/logo1.jpg" alt="logo">
+        <hgroup>
+          <h1 >Tammy Rae</h1>
+          <h2 >Glasswork and Jewelry</h2>
+        </hgroup>
+
+    </header>
+</div><!-- end header wrapper -->
+
+
+
+
+
+<div id="navWrapper">
+<nav>
+<ul class="primary-nav clearfix">
+<li class="parent"><a href="#">Glass</a>
+    <ul>
+    <li><a href="#">Pendants</a></li>
+    <li><a href="#">Earings</a></li>
+    <li><a href="#">Bracelets</a></li>
+    </ul></li>
+
+<li class="parent"><a href="#">Silver</a>
+    <ul>
+    <li><a href="#">Necklaces</a></li>
+    <li><a href="#">Bracelets</a>
+    </li></ul></li>
+
+<li class="parent"><a href="#">Sculptures</a>
+    <ul>
+    <li><a href="#">Glass</a></li>
+    <li><a href="#">Clay</a></li>
+    <li><a href="#">Iron</a></li>
+    </ul></li>
+
+
+<li class="parent"><a href="#">Turquoise</a>
+    <ul>
+    <li class="active"><a href="#">Top Picks</a></li>
+    <li><a href="#">Other</a></li>
+    </ul></li>
+</ul><!-- end primary nav -->
+
+<!-- phone nav button -->
+<button class="nav-button">Toggle Navigation</button>
+
+ </nav>
+</div><!-- end of the navWrapper-->
+
+
+
+
+
+<div id="contentWrapper">
+	<div class="centerlize"><img src="images/cover1.jpg" alt="Main Image"></div>
+<div id="content" class="clearfix">
+<h2>Featured Jewelry Pieces</h2>
+
+
+<div class="row">
+<div class="column">
+
+<article>
+    <h3>ARMENIAN BEAUTY CONCHA BELT</h3>
+    <figure><img src="images/artPiece1.jpg" alt="beach">
+    </figure>
+    <p>Amazing hand crafted sterling silver, leather,  turquoise belt!  Wear it as vintage flare, boho vibe, or even rodeo queen!</p>
+</article>
+
+<article>
+  <h3>BLUE INSPIRATION CLUSTER EARRINGS</h3>
+  <figure><img src="images/artPiece2.jpg" alt="beach">
+    </figure>
+    <p>What would life be without Sleeping Beauty Turquoise? Pretty boring I suppose. This stone won’t be around forever since they closed the mine, but we will sure to get you yours.</p>
+</article>
+
+</div><!-- end column-->
+
+
+
+<div class="column">
+
+<article>
+  <h3>CLASSIC TURQUOISE CLUSTER RING</h3>
+  <figure><img src="images/artPiece3.jpg" alt="beach">
+    </figure>
+    <p>The heavy twisted wire gives this petite traditional Zuni style cluster the classic southwest look. You will love this one on your finger.</p>
+</article>
+
+<article>
+    <h3>PURPLE BEAUTY CUFF BRACELET</h3>
+    <figure><img src="images/artPiece4.jpg" alt="beach">
+    </figure>
+    <p>If you like purple, then you will love this beauty set with 5 very high grade Charoite cabochons.</p>
+    </article>
+
+</div><!-- end column-->
+</div><!-- end row-->
+
+
+
+
+
+
+<div class="row">
+<div class="column">
+
+<article>
+    <h3>PURPLE FLOWER CLUSTER PENDANT</h3>
+    <figure><img src="images/artPiece5.jpg" alt="beach">
+    </figure>
+    <p>A purple color explosion defines this classic southwest design sterling silver pendant. If you like purple you will not be disappointed.</p>
+</article>
+
+<article>
+  <h3>RAINBOW CROSS PENDANT</h3>
+  <figure><img src="images/artPiece6.jpg" alt="beach">
+    <p>This is our only multi color cross for the time being, but it has all the colors you could want if you are looking for a rainbow.</p>
+</article>
+
+</div><!-- end column-->
+
+
+
+<div class="column">
+
+    <article>
+    <h3>RAINBOW CUFF BRACELET</h3>
+    <figure><img src="images/artPiece7.jpg" alt="beach">
+    </figure>
+    <p>The colors are vibrant in this classic old southwestern style cuff bracelet and the texture of the band brings it all together.</p>
+   </article>
+
+    <article>
+      <h3>SLEEPING BEAUTY CLUSTER CONCHA BELT</h3>
+      <figure><img src="images/artPiece8.jpg" alt="beach">
+    </figure>
+    <p>This classic Zuni style belt is loaded with the best Sleeping Beauty Turquoise money can buy, if you can find it.</p>
+    </article>
+
+</div><!-- end column-->
+</div><!-- end row-->
+
+
+
+</div><!-- end content -->
+</div><!-- end contentWrapper -->
+
+<div class="footerClear">
+
+
+<div id="footerWrapper">
+    <footer>
+    	<p class="copyright">&copy;tammyrae.com</p>
+			<a href="#" class="fa fa-user admin" aria-hidden="true"> Admin</i>
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+    </footer>
+</div><!-- end footer wrapper -->
+</div><!-- end footer clear -->
+
+</body></html>

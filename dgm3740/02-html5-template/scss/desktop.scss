@@ -1,0 +1,87 @@
+@media only screen and (min-width: 1141px) {
+/*-----BODY -----*/
+body {
+	margin-bottom: 2em;
+}
+
+
+/*-----HEADER -----*/
+	header {
+		max-width: 1140px;
+		margin: 0 auto;
+	}
+	header img {
+		float: left;
+		margin: 0 2% ;
+		width: 20%;
+	}
+
+
+/*-----NAVigation -----*/
+	nav {
+		max-width: 1140px;
+		margin: 0 auto;
+	}
+	nav ul li a {
+	padding: 1.5em;
+	}
+
+
+
+/*-----------------------------CONTENT STUFF GOES HERE --------------------------------------------------*/
+	#contentWrapper {
+		background-position:center top;
+		background-repeat:no-repeat;
+	}
+	#content {
+		margin: 0 auto;
+		max-width: 1140px;
+		border-left: 1px solid #000000;
+		border-right: 1px solid #000000;
+
+	}
+
+	#content article figure img {width: 100%; margin:0;}
+
+	#content article figure figcaption {
+		float: none;
+		width: 100%;
+		padding: .4em 0;
+	}
+
+
+	div.row {
+		clear: both;
+	}
+	div.column {
+		width: 50%;
+		float:left;
+		clear: none;
+	}
+	article {
+		margin-left: 4%; /*needs to increase because the article is living inside a 50% of the total */
+		margin-right: 4%;
+		width: 42%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
