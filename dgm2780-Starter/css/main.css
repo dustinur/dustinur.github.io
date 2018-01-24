@@ -1,0 +1,62 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*
+Colors
+grey rgb(41,39,40);
+orange rgb(254,185,143);
+*/
+
+
+
+/* Body */
+
+body {
+  background-color: rgb(254,185,143);
+}
+
+.mainContent {
+  color: white;
+  background: rgb(41,39,40);
+}
+
+.mainContent img {
+  background: rgb(41,39,40);
+  margin-top: 2em;
+  border-color: black;
+}
+
+/* Nav */
+
+.signButton {
+ color: black;
+ background: white;
+ border-color: grey;
+}
+
+.signButton:hover {
+ background: yellow;
+}
+
+.navbar-brand img {
+  height: 1.2em;
+}
+
+
+.jumbotron {
+  color: white;
+  text-align: left;
+  background: transparent url("../img/jumboSpa2.jpg") no-repeat center;
+  width: 100%;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.navbar-trans {
+  color: white;
+  background: transparent;
+  border-color: rgb(254,185,143);
+}
