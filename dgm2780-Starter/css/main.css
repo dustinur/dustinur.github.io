@@ -18,33 +18,46 @@ body {
   background-color: rgb(254,185,143);
 }
 
+.btn {
+ color: #fff;
+ background: rgb(41,39,40);
+ border-color: #000;
+}
+
+.btn:hover {
+ background: #000;
+ border-color: #000;
+}
+
 .mainContent {
   color: white;
   background: rgb(41,39,40);
+  /* margin: 2em; */
 }
+
+.mainContent .btn {
+  background: #fff;
+  color: #000;
+ }
+
 
 .mainContent img {
   background: rgb(41,39,40);
   margin-top: 2em;
-  border-color: black;
+  border-color: transparent;
 }
+
 
 /* Nav */
-
-.signButton {
- color: black;
- background: white;
- border-color: grey;
-}
-
-.signButton:hover {
- background: yellow;
-}
 
 .navbar-brand img {
   height: 1.2em;
 }
 
+
+/* .carousel-inner > .item {
+  height: 25%;
+} */
 
 .jumbotron {
   color: white;
@@ -53,6 +66,10 @@ body {
   width: 100%;
   background-size: 100%;
   overflow: hidden;
+}
+
+.jumbotron .container .btn:hover {
+ background: #000;
 }
 
 .navbar-trans {
