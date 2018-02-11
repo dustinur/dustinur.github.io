@@ -8,19 +8,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
+
+
+<!-- NAV -->
     <body>
-    <nav class="navbar navbar-inverse navbar-trans navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -29,107 +27,215 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#" class="navbar-brand"><img src="img\logo.png"></a>
           <a class="navbar-brand" href="#">Calm Mind</a>
         </div>
+
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn signButton btn-success">Sign in</button>
-          </form>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Spa <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Massage</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Classes <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Single</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Couples</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Group</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        <form class="navbar-form navbar-right" role="form">
+          <div class="form-group">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+            <input type="text" placeholder="Email" class="form-control">
+          </div>
+          <div class="form-group">
+            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+            <input type="password" placeholder="Password" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-success">Sign in</button>
+        </form>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
 
+
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Calm Mind</h1>
-        <h2>Spa and Yoga Classes</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis, mauris a tincidunt placerat, arcu purus commodo neque, sit amet condimentum nunc est quis lorem. Quisque condimentum nibh eget metus suscipit tincidunt.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
-
-    <div class="container mainContent">
-      <!-- Example row of columns -->
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="img\spaCarousel1.jpg" alt="Spa1">
-        <div class="carousel-caption">
-          ...
-        </div>
-      </div>
-      <div class="item">
-        <img src="img\spaCarousel2.jpg" alt="Spa2">
-        <div class="carousel-caption">
-          ...
-        </div>
-      </div>
-      <div class="item">
-        <img src="img\spaCarousel3.jpg" alt="Spa2">
-        <div class="carousel-caption">
-          ...
+        <div class="row">
+          <div class="col-sm-8">
+            <h1>Calm Mind</h1>
+            <h2>Spa and Yoga Classes</h2>
+            <span class="clearfix"></span>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Controls -->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
 
-      <div class="row">
-        <div class="col-md-4">
-          <img src="img\spa1.jpg" alt="Spa" class="img-thumbnail">
-          <h2>Spa Services</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <img src="img\yoga1.jpg" alt="Spa" class="img-thumbnail">
-          <h2>Yoga</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <img src="img\workshop1.jpg" alt="Spa" class="img-thumbnail">
-          <h2>Workshops</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+<!-- Thumbnails -->
+    <div class="section1">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="img/yoga-thumb1.jpg" alt="...">
+              <div class="caption">
+                <h3>Spa</h3>
+                <p>Maecenas convallis magna in nulla tincidunt, a pellentesque magna auctor. Donec id sapien eu augue hendrerit posuere nec a ligula. Vestibulum aliquam ornare nunc a mollis. Aenean vestibulum congue enim, vel euismod nunc ornare in.</p>
+                <p><a href="#" class="btn btn-primary" role="button">More Info</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="img/yoga-thumb2.jpg" alt="...">
+              <div class="caption">
+                <h3>Massage</h3>
+                <p>Maecenas convallis magna in nulla tincidunt, a pellentesque magna auctor. Donec id sapien eu augue hendrerit posuere nec a ligula. Vestibulum aliquam ornare nunc a mollis. Aenean vestibulum congue enim, vel euismod nunc ornare in.</p>
+                <p><a href="#" class="btn btn-primary" role="button">More Info</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="img/yoga-thumb3.jpg" alt="...">
+              <div class="caption">
+                <h3>Lounge</h3>
+                <p>Maecenas convallis magna in nulla tincidunt, a pellentesque magna auctor. Donec id sapien eu augue hendrerit posuere nec a ligula. Vestibulum aliquam ornare nunc a mollis. Aenean vestibulum congue enim, vel euismod nunc ornare in.</p>
+                <p><a href="#" class="btn btn-primary" role="button">More Info</a> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="img/yoga-thumb4.jpg" alt="...">
+              <div class="caption">
+                <h3>Group Lessons</h3>
+                <p>Maecenas convallis magna in nulla tincidunt, a pellentesque magna auctor. Donec id sapien eu augue hendrerit posuere nec a ligula. Vestibulum aliquam ornare nunc a mollis. Aenean vestibulum congue enim, vel euismod nunc ornare in.</p>
+                <p><a href="#" class="btn btn-primary" role="button">More Info</a></p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
 
-      <hr>
 
-      <footer>
-        <p>&copy; Calm Mind 2017</p>
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<!-- Accordian -->
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- <div class="section2">
+      <div class="container">
+        <div id="accordion" class="accordion">
+          <div class="card flex-card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Location
+                </button>
+              </h5>
+            </div>
 
-        <script src="js/main.js"></script>
-    </body>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <img src="img/loaction.jpg" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card flex-card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  About
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card flex-card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  FAQ
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card flex-card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                  Contact
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <div class="section3">
+      <div class="container accordion">
+        <section class="accordion-item color1">
+            <h1>Section 1</h1>
+            <div class="accordion-item-content">
+              <p>Content for section 1</p>
+            </div>
+        </section>
+        <section class="accordion-item color2">
+            <h1>Section 2</h1>
+            <div class="accordion-item-content">
+              <p>Content for section 2</p>
+            </div>
+        </section>
+        <section  class="accordion-item color3">
+            <h1>Section 3</h1>
+            <div class="accordion-item-content">
+              <p>Content for section 3</p>
+            </div>
+        </section>
+        <section class="accordion-item color4">
+            <h1>Section 4</h1>
+            <div class="accordion-item-content">
+              <p>Content for section 4</p>
+            </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="section4">
+      <div class="container flex-div">
+        <footer>
+          <p>&copy; Calm Mind 2017</p>
+        </footer>
+      </div> <!-- /container -->
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
 </html>
