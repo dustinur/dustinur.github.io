@@ -9,6 +9,44 @@ Remove fixed class from Nav and use Afix w/ JavaScript
 Data offset to allow it to disappear then reapear
 */
 
+
+
+/* section styles */
+.section1, .section2, .section3, .section4, .section5 {
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
+
+.section1 {
+  width: 100%;
+  background: #112717 url("../img/spaJumbo2.jpg") no-repeat center;
+}
+
+.section2 {
+  color: white;
+  background: #062c22;
+}
+
+.section3 {
+  color: white;
+  background: #638699 url("../img/spaJumbo3.jpg") no-repeat center left;
+}
+
+.section4 {
+  color: white;
+  background: rgba(0, 20, 0, 0.7);
+}
+
+.section5 {
+  color: white;
+  background: #112717;
+}
+
+
+
+
+
 /* nav */
 #navbar .glyphicon {
   margin: 0em 0.25em 0em 1em;
@@ -43,11 +81,22 @@ a.btn.btn-primary {
 }
 
 .navbar .navbar-brand {
-  color: white;A
+  color: white;
+}
+
+.navbar-brand img {
+  height: 1.4em;
+  padding-right: 1em;
+  display: inline-flex;
 }
 
 .navbar .navbar-nav li a {
-  color: white;
+  color : white;
+}
+
+.navbar form {
+  /* display: inline-block;
+  float: right; */
 }
 
 .dropdown-menu > li > a:hover {
@@ -55,6 +104,34 @@ a.btn.btn-primary {
   background-image: none;
 }
 
+
+
+/* Accoridan */
+/* #accordion {
+  text-decoration: none;
+} */
+
+/* .section4 a:hover {
+  background-color: black;
+  background-image: none;
+}
+
+.section4.btn-link {
+  color: white;
+  text-decoration: none;
+} */
+
+#accordian .panel-custom {
+  background-color: rgba(0, 20, 0, 0.7);
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+}
+
+
+
+/* Jumbotron & Thumbnails */
 .thumbnail p {
   color: white;
 }
@@ -77,57 +154,46 @@ a.btn.btn-primary {
 
 
 
-/* section styles */
-.section1, .section2, .section3, .section4{
-  width: 100%;
-  padding-top: 2em;
-  padding-bottom: 1.5em;
+
+
+/* CSS Accoridan */
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+  height: 6em;
 }
 
-.section1 {
-  background: #112717 url("../img/spaJumbo2.jpg") no-repeat center left;
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+  height: 0;
+  overflow: hidden;
+  transition: height .25s;
 }
-
-.section2 {
-  color: white;
-  background: black;
-}
-
-.section3 {
-  color: white;
-  background: #638699 url("../img/spaJumbo3.jpg") no-repeat center left;
-}
-
-.section4 {
-  color: white;
-  background: rgba(0, 20, 0, 0.7);
-}
-
-
-.color1, .color2, .color2, .color4 {
+.color1, .color2 {
+  text-align: center;
 	color: #fff;
 	padding: 2em;
 	opacity: 0.8;
 }
 
 .color1 {
-  background-color: #D2B9D2;
+  background-color: #638699;
 }
 
 .color2 {
-  background-color: #447F44;
-}
-
-.color3 {
-  background-color: #3D375B;
-}
-
-.color4 {
-  background-color: #81CC81;
+  background-color: rgba(0, 20, 0, 0.7);
 }
 
 .font-center {
 	font-size: 2em;
+}
+
+
+
+/* General */
+body {
+  padding-top: 50px;
+  /*padding-bottom: 20px;*/
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -142,24 +208,3 @@ a.btn.btn-primary {
 /*.flex-card {
 
 }*/
-
-
-/* The Magic */
-.accordion:hover .accordion-item:hover .accordion-item-content,
-.accordion .accordion-item--default .accordion-item-content {
-    height: 6em;
-}
-
-.accordion-item-content,
-.accordion:hover .accordion-item-content {
-    height: 0;
-    overflow: hidden;
-    transition: height .25s;
-}
-
-
-body {
-  padding-top: 50px;
-  /*padding-bottom: 20px;*/
-  font-family: 'Montserrat', sans-serif;
-}

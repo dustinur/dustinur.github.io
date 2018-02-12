@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.section1, .section2, .section3, .section4, .section5	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section1, .section2, .section3, .section4, .section5 {$/;"	function	line:15
+.section1	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section1 {$/;"	function	line:21
+.section2	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section2 {$/;"	function	line:26
+.section3	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section3 {$/;"	function	line:31
+.section4	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section4 {$/;"	function	line:36
+.section5	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section5 {$/;"	function	line:41
+#navbar .glyphicon	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^#navbar .glyphicon {$/;"	function	line:51
+button.btn	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^button.btn {$/;"	function	line:56
+a.btn.btn-primary	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^a.btn.btn-primary {$/;"	function	line:62
+.btn.btn-success	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.btn.btn-success {$/;"	function	line:69
+.navbar, .thumbnail, .dropdown-menu	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.navbar, .thumbnail, .dropdown-menu {$/;"	function	line:75
+.navbar .navbar-brand	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.navbar .navbar-brand {$/;"	function	line:83
+.navbar-brand img	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.navbar-brand img {$/;"	function	line:87
+.navbar .navbar-nav li a	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.navbar .navbar-nav li a {$/;"	function	line:93
+.navbar form	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.navbar form {$/;"	function	line:97
+.dropdown-menu > li > a:hover	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.dropdown-menu > li > a:hover {$/;"	function	line:102
+/* #accordion	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^\/* #accordion {$/;"	function	line:110
+/* .section4 a:hover	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^\/* .section4 a:hover {$/;"	function	line:114
+.section4.btn-link	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section4.btn-link {$/;"	function	line:119
+#accordian .panel-custom	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^#accordian .panel-custom {$/;"	function	line:124
+.thumbnail p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.thumbnail p {$/;"	function	line:135
+.thumbnail h3	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.thumbnail h3 {$/;"	function	line:139
+.jumbotron	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.jumbotron {$/;"	function	line:143
+.jumbotron p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.jumbotron p {$/;"	function	line:151
+.accordion:hover .accordion-item:hover .accordion-item-content	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.accordion:hover .accordion-item:hover .accordion-item-content,$/;"	function	line:160
+.accordion .accordion-item--default .accordion-item-content	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.accordion .accordion-item--default .accordion-item-content {$/;"	function	line:161
+.accordion-item-content	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.accordion-item-content,$/;"	function	line:165
+.accordion:hover .accordion-item-content	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.accordion:hover .accordion-item-content {$/;"	function	line:166
+.color1, .color2	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.color1, .color2 {$/;"	function	line:171
+.color1	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.color1 {$/;"	function	line:178
+.color2	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.color2 {$/;"	function	line:182
+.font-center	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.font-center {$/;"	function	line:186
+body	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^body {$/;"	function	line:193
+.flex-div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.flex-div {$/;"	function	line:202
+/*.flex-card	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^\/*.flex-card {$/;"	function	line:208
