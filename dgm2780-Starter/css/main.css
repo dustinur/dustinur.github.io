@@ -12,7 +12,7 @@ Data offset to allow it to disappear then reapear
 
 
 /* section styles */
-.section1, .section2, .section3, .section4, .section5 {
+.section1, .section2, .section3, .section3, .section5 {
   width: 100%;
   padding-top: 2em;
   padding-bottom: 1.5em;
@@ -25,23 +25,14 @@ Data offset to allow it to disappear then reapear
 
 .section2 {
   color: white;
-  background: #062c22;
+  background: #112717;
 }
 
 .section3 {
   color: white;
-  background: #638699 url("../img/spaJumbo3.jpg") no-repeat center left;
-}
-
-.section4 {
-  color: white;
   background: rgba(0, 20, 0, 0.7);
 }
 
-.section5 {
-  color: white;
-  background: #112717;
-}
 
 
 
@@ -53,6 +44,10 @@ Data offset to allow it to disappear then reapear
   color: white;
 }
 
+.navbar {
+  margin-bottom: 0 !important;
+}
+
 .affix {
     top: 0;
     width: 100%;
@@ -62,13 +57,13 @@ Data offset to allow it to disappear then reapear
 
 button.btn {
   color: white;
-  background: #CCBB81;
+  background-color: rgba(99, 134, 153, 0.7);
   border: none;
 }
 
 a.btn.btn-primary {
   background-image: none;
-  background-color: #CCBB81;
+  background-color: rgba(99, 134, 153, 0.7);
   border-color: white;
   border: none;
 }
@@ -101,11 +96,6 @@ a.btn.btn-primary {
   color : white;
 }
 
-.navbar form {
-  /* display: inline-block;
-  float: right; */
-}
-
 .dropdown-menu > li > a:hover {
   background-color: black;
   background-image: none;
@@ -114,39 +104,16 @@ a.btn.btn-primary {
 
 
 /* Accoridan */
-/* #accordion {
-  text-decoration: none;
-} */
-
-/* .section4 a:hover {
-  background-color: black;
-  background-image: none;
-}
-
-.section4.btn-link {
+ #accordion .btn.btn-link {
   color: white;
   text-decoration: none;
-} */
-
-#accordian .panel-custom {
-  background-color: rgba(0, 20, 0, 0.7);
-  background:transparent;
-  background-image:none;
-  border-color:transparent;
-  box-shadow:none;
+  background-color: rgba(99, 134, 153, 0.7);
 }
+
 
 
 
 /* Jumbotron & Thumbnails */
-.thumbnail p {
-  color: white;
-}
-
-.thumbnail h3 {
-  color: #CCBB81;
-}
-
 .jumbotron {
   background: white url("../img/spaJumbo1.jpg") no-repeat 20% 50%;
   height: 100%;
@@ -159,6 +126,13 @@ a.btn.btn-primary {
   padding-top: .5em;
 }
 
+.thumbnail p {
+  color: white;
+}
+
+.thumbnail h3 {
+  color: #CCBB81;
+}
 
 
 
@@ -193,8 +167,6 @@ a.btn.btn-primary {
 .font-center {
 	font-size: 2em;
 }
-
-
 
 /* General */
 body {
