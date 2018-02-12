@@ -53,6 +53,13 @@ Data offset to allow it to disappear then reapear
   color: white;
 }
 
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+
 button.btn {
   color: white;
   background: #CCBB81;
@@ -191,7 +198,6 @@ a.btn.btn-primary {
 
 /* General */
 body {
-  padding-top: 50px;
   /*padding-bottom: 20px;*/
   font-family: 'Montserrat', sans-serif;
 }

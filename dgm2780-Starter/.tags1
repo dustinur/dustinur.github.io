@@ -4,38 +4,160 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-.section1, .section2, .section3, .section4, .section5	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section1, .section2, .section3, .section4, .section5 {$/;"	function	line:15
-.section1	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section1 {$/;"	function	line:21
-.section2	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section2 {$/;"	function	line:26
-.section3	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section3 {$/;"	function	line:31
-.section4	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section4 {$/;"	function	line:36
-.section5	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section5 {$/;"	function	line:41
-#navbar .glyphicon	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^#navbar .glyphicon {$/;"	function	line:51
-button.btn	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^button.btn {$/;"	function	line:56
-a.btn.btn-primary	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^a.btn.btn-primary {$/;"	function	line:62
-.btn.btn-success	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.btn.btn-success {$/;"	function	line:69
-.navbar, .thumbnail, .dropdown-menu	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.navbar, .thumbnail, .dropdown-menu {$/;"	function	line:75
-.navbar .navbar-brand	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.navbar .navbar-brand {$/;"	function	line:83
-.navbar-brand img	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.navbar-brand img {$/;"	function	line:87
-.navbar .navbar-nav li a	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.navbar .navbar-nav li a {$/;"	function	line:93
-.navbar form	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.navbar form {$/;"	function	line:97
-.dropdown-menu > li > a:hover	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.dropdown-menu > li > a:hover {$/;"	function	line:102
-/* #accordion	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^\/* #accordion {$/;"	function	line:110
-/* .section4 a:hover	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^\/* .section4 a:hover {$/;"	function	line:114
-.section4.btn-link	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.section4.btn-link {$/;"	function	line:119
-#accordian .panel-custom	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^#accordian .panel-custom {$/;"	function	line:124
-.thumbnail p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.thumbnail p {$/;"	function	line:135
-.thumbnail h3	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.thumbnail h3 {$/;"	function	line:139
-.jumbotron	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.jumbotron {$/;"	function	line:143
-.jumbotron p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.jumbotron p {$/;"	function	line:151
-.accordion:hover .accordion-item:hover .accordion-item-content	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.accordion:hover .accordion-item:hover .accordion-item-content,$/;"	function	line:160
-.accordion .accordion-item--default .accordion-item-content	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.accordion .accordion-item--default .accordion-item-content {$/;"	function	line:161
-.accordion-item-content	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.accordion-item-content,$/;"	function	line:165
-.accordion:hover .accordion-item-content	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.accordion:hover .accordion-item-content {$/;"	function	line:166
-.color1, .color2	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.color1, .color2 {$/;"	function	line:171
-.color1	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.color1 {$/;"	function	line:178
-.color2	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.color2 {$/;"	function	line:182
-.font-center	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.font-center {$/;"	function	line:186
-body	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^body {$/;"	function	line:193
-.flex-div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^.flex-div {$/;"	function	line:202
-/*.flex-card	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\css\main.css	/^\/*.flex-card {$/;"	function	line:208
+html	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^<html class="no-js" lang="">$/;"	function	line:2
+head	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <head>$/;"	function	line:3
+meta	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <meta charset="utf-8">$/;"	function	line:4
+meta	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">$/;"	function	line:5
+title	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <title><\/title>$/;"	function	line:6
+meta	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <meta name="description" content="">$/;"	function	line:7
+meta	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <meta name="viewport" content="width=device-width, initial-scale=1">$/;"	function	line:8
+link	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <link rel="stylesheet" href="css\/bootstrap.min.css">$/;"	function	line:10
+link	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <link href="https:\/\/fonts.googleapis.com\/css?family=Montserrat" rel="stylesheet">$/;"	function	line:11
+link	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <link rel="stylesheet" href="css\/bootstrap-theme.min.css">$/;"	function	line:12
+link	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <link rel="stylesheet" href="css\/main.css">$/;"	function	line:13
+script	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <script src="js\/vendor\/modernizr-2.8.3-respond-1.4.2.min.js"><\/script>$/;"	function	line:15
+body	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <body>$/;"	function	line:21
+nav	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="400">$/;"	function	line:22
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^      <div class="container">$/;"	function	line:23
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <div class="navbar-header">$/;"	function	line:24
+button	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">$/;"	function	line:25
+span	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <span class="sr-only">Toggle navigation<\/span>$/;"	function	line:26
+span	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <span class="icon-bar"><\/span>$/;"	function	line:27
+span	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <span class="icon-bar"><\/span>$/;"	function	line:28
+span	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <span class="icon-bar"><\/span>$/;"	function	line:29
+a	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <a class="navbar-brand" href="#"><img alt="Brand" src="img\/logo.png">Calm Mind<\/a>$/;"	function	line:31
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <div id="navbar" class="navbar-collapse collapse">$/;"	function	line:34
+ul	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <ul class="nav navbar-nav">$/;"	function	line:35
+li	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <li class="active"><a href="#">Spa <span class="sr-only">(current)<\/span><\/a><\/li>$/;"	function	line:36
+li	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <li><a href="#">Massage<\/a><\/li>$/;"	function	line:37
+li	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <li class="dropdown">$/;"	function	line:38
+a	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Classes <span class="caret"><\/span><\/a>$/;"	function	line:39
+ul	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <ul class="dropdown-menu">$/;"	function	line:40
+li	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <li><a href="#">Single<\/a><\/li>$/;"	function	line:41
+li	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <li role="separator" class="divider"><\/li>$/;"	function	line:42
+li	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <li><a href="#">Couples<\/a><\/li>$/;"	function	line:43
+li	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <li role="separator" class="divider"><\/li>$/;"	function	line:44
+li	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <li><a href="#">Group<\/a><\/li>$/;"	function	line:45
+form	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <form class="navbar-form navbar-right" role="form">$/;"	function	line:50
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <div class="form-group">$/;"	function	line:51
+span	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <span class="glyphicon glyphicon-envelope" aria-hidden="true"><\/span>$/;"	function	line:52
+input	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <input type="text" placeholder="Email" class="form-control">$/;"	function	line:53
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <div class="form-group">$/;"	function	line:55
+span	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <span class="glyphicon glyphicon-lock" aria-hidden="true"><\/span>$/;"	function	line:56
+input	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <input type="password" placeholder="Password" class="form-control">$/;"	function	line:57
+button	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <button type="submit" class="btn btn-success">Sign in<\/button>$/;"	function	line:59
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <div class="jumbotron">$/;"	function	line:67
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^      <div class="container">$/;"	function	line:68
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <div class="row">$/;"	function	line:69
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <div class="col-sm-8">$/;"	function	line:70
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <h1>Calm Mind<\/h1>$/;"	function	line:71
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <h2>Spa and Yoga Classes<\/h2>$/;"	function	line:72
+span	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <span class="clearfix"><\/span>$/;"	function	line:73
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;<\/a><\/p>$/;"	function	line:74
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <div class="section5">$/;"	function	line:83
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^      <div class="container">$/;"	function	line:84
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <div class="row">$/;"	function	line:85
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <div class="col-sm-6 col-md-3">$/;"	function	line:86
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="thumbnail">$/;"	function	line:87
+img	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <img src="img\/yoga-thumb1.jpg" alt="...">$/;"	function	line:88
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <div class="caption">$/;"	function	line:89
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <h3>Spa<\/h3>$/;"	function	line:90
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <p>Maecenas convallis magna in nulla tincidunt, a pellentesque magna auctor. Donec id sapien eu augue hendrerit posuere nec a ligula. Vestibulum aliquam ornare nunc a mollis. Aenean vestibulum congue enim, vel euismod nunc ornare in.<\/p>$/;"	function	line:91
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <p><a href="#" class="btn btn-primary" role="button">More Info<\/a><\/p>$/;"	function	line:92
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <div class="col-sm-6 col-md-3">$/;"	function	line:96
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="thumbnail">$/;"	function	line:97
+img	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <img src="img\/yoga-thumb2.jpg" alt="...">$/;"	function	line:98
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <div class="caption">$/;"	function	line:99
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <h3>Massage<\/h3>$/;"	function	line:100
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <p>Maecenas convallis magna in nulla tincidunt, a pellentesque magna auctor. Donec id sapien eu augue hendrerit posuere nec a ligula. Vestibulum aliquam ornare nunc a mollis. Aenean vestibulum congue enim, vel euismod nunc ornare in.<\/p>$/;"	function	line:101
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <p><a href="#" class="btn btn-primary" role="button">More Info<\/a><\/p>$/;"	function	line:102
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <div class="col-sm-6 col-md-3">$/;"	function	line:106
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="thumbnail">$/;"	function	line:107
+img	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <img src="img\/yoga-thumb3.jpg" alt="...">$/;"	function	line:108
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <div class="caption">$/;"	function	line:109
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <h3>Lounge<\/h3>$/;"	function	line:110
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <p>Maecenas convallis magna in nulla tincidunt, a pellentesque magna auctor. Donec id sapien eu augue hendrerit posuere nec a ligula. Vestibulum aliquam ornare nunc a mollis. Aenean vestibulum congue enim, vel euismod nunc ornare in.<\/p>$/;"	function	line:111
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <p><a href="#" class="btn btn-primary" role="button">More Info<\/a> <\/p>$/;"	function	line:112
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <div class="col-sm-6 col-md-3">$/;"	function	line:116
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="thumbnail">$/;"	function	line:117
+img	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <img src="img\/yoga-thumb4.jpg" alt="...">$/;"	function	line:118
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <div class="caption">$/;"	function	line:119
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <h3>Group Lessons<\/h3>$/;"	function	line:120
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <p>Maecenas convallis magna in nulla tincidunt, a pellentesque magna auctor. Donec id sapien eu augue hendrerit posuere nec a ligula. Vestibulum aliquam ornare nunc a mollis. Aenean vestibulum congue enim, vel euismod nunc ornare in.<\/p>$/;"	function	line:121
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <p><a href="#" class="btn btn-primary" role="button">More Info<\/a><\/p>$/;"	function	line:122
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <div class="section5">$/;"	function	line:134
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^      <div class="container">$/;"	function	line:135
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">$/;"	function	line:136
+ol	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <ol class="carousel-indicators">$/;"	function	line:138
+li	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><\/li>$/;"	function	line:139
+li	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <li data-target="#carousel-example-generic" data-slide-to="1"><\/li>$/;"	function	line:140
+li	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <li data-target="#carousel-example-generic" data-slide-to="2"><\/li>$/;"	function	line:141
+li	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <li data-target="#carousel-example-generic" data-slide-to="3"><\/li>$/;"	function	line:142
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <div class="carousel-inner" role="listbox">$/;"	function	line:146
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="item active">$/;"	function	line:147
+img	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <img src="img\/carousel1.png" alt="spa" >$/;"	function	line:148
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="item">$/;"	function	line:150
+img	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <img src="img\/carousel2.png" alt="uvu seal">$/;"	function	line:151
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="item">$/;"	function	line:153
+img	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <img src="img\/carousel3.png" alt="spa">$/;"	function	line:154
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="item">$/;"	function	line:156
+img	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <img src="img\/carousel4.png" alt="uvu seal">$/;"	function	line:157
+a	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">$/;"	function	line:162
+span	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><\/span>$/;"	function	line:163
+span	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <span class="sr-only">Previous<\/span>$/;"	function	line:164
+a	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">$/;"	function	line:166
+span	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><\/span>$/;"	function	line:167
+span	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <span class="sr-only">Next<\/span>$/;"	function	line:168
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <div class="section5">$/;"	function	line:177
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^      <div class="container">$/;"	function	line:178
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <div id="accordion">$/;"	function	line:179
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <div class="card">$/;"	function	line:180
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="card-header" id="headingOne">$/;"	function	line:181
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <h5 class="mb-0">$/;"	function	line:182
+button	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">$/;"	function	line:183
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">$/;"	function	line:188
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <div class="card-body">$/;"	function	line:189
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <div class="card">$/;"	function	line:194
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="card-header" id="headingTwo">$/;"	function	line:195
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <h5 class="mb-0">$/;"	function	line:196
+button	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">$/;"	function	line:197
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">$/;"	function	line:202
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <div class="card-body">$/;"	function	line:203
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <div class="card">$/;"	function	line:208
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="card-header" id="headingThree">$/;"	function	line:209
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <h5 class="mb-0">$/;"	function	line:210
+button	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">$/;"	function	line:211
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">$/;"	function	line:216
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <div class="card-body">$/;"	function	line:217
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <div class="card">$/;"	function	line:222
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="card-header" id="headingFour">$/;"	function	line:223
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <h5 class="mb-0">$/;"	function	line:224
+button	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">$/;"	function	line:225
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">$/;"	function	line:230
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <div class="card-body">$/;"	function	line:231
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <div class="section1">$/;"	function	line:243
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^      <div class="container accordion">$/;"	function	line:244
+section	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <section class="accordion-item color1">$/;"	function	line:245
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <h1>Location<\/h1>$/;"	function	line:246
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="accordion-item-content">$/;"	function	line:247
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <p>Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<\/p>$/;"	function	line:248
+section	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <section class="accordion-item color2">$/;"	function	line:251
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <h1>About<\/h1>$/;"	function	line:252
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="accordion-item-content">$/;"	function	line:253
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <p>Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.<\/p>$/;"	function	line:254
+section	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <section class="accordion-item color1">$/;"	function	line:257
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <h1>FAQ<\/h1>$/;"	function	line:258
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="accordion-item-content">$/;"	function	line:259
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.1<\/p>$/;"	function	line:260
+section	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <section class="accordion-item color2">$/;"	function	line:263
+h	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <h1>Contact<\/h1>$/;"	function	line:264
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^            <div class="accordion-item-content">$/;"	function	line:265
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^              <p>Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<\/p>$/;"	function	line:266
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <div class="section4">$/;"	function	line:275
+div	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^      <div class="container flex-div">$/;"	function	line:276
+footer	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^        <footer>$/;"	function	line:277
+p	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^          <p>&copy; Calm Mind 2017<\/p>$/;"	function	line:278
+script	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <script src="\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.11.2\/jquery.min.js"><\/script>$/;"	function	line:284
+script	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <script>window.jQuery || document.write('<script src="js\/vendor\/jquery-1.11.2.min.js"><\\\/script>')<\/script>$/;"	function	line:285
+script	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <script src="js\/vendor\/bootstrap.min.js"><\/script>$/;"	function	line:286
+script	C:\Users\Uriah\Documents\GitHub\dustinur\dgm2780-Starter\index.html	/^    <script src="js\/main.js"><\/script>$/;"	function	line:287
