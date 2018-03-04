@@ -19,12 +19,16 @@ a {
   margin-bottom: 1em;
 }
 
+.flex-btn {
+  display: flex;
+  justify-content: center;
+}
+
 .btn {
   border-color: #FFFDA5;
   background-color: #FFFDA5;
   color: black;
 }
-
 
 .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
     background-color: #FFFDA5;
