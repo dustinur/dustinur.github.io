@@ -1,0 +1,52 @@
+// Media Queries
+$mobile-width: 432px;
+$desktop-width: 940px;
+
+// Colors
+$primary-color: #2e0601;
+$alt-color: #1f5b66;
+$alt-color2: #000;
+
+// Fonts
+$primary-font: 'Caveat', cursive;
+$alt-font: 'Cinzel', serif;
+
+
+// @MIXINS
+
+
+// p {
+//   font-size: 16px;
+
+//   @include mobile {
+//     font-size: 18px;
+//   }
+
+//   @include desktop {
+//     font-size: 20px;
+//   }
+// }
+@mixin mobile {
+  @media (min-width: #{$mobile-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+
+
+// @include flex-item(flex-end, 200px, 200px);
+@mixin flex-item($justify: center, $width: auto, $height: auto) {
+  width: 100%;
+  margin: .5em 0;
+  display: flex;
+  justify-content: $justify;
+  align-items: center;
+  width: $width;
+  height: $height;
+}
