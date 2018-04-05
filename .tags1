@@ -1,0 +1,152 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^<html lang="en">$/;"	function	line:2
+head	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^  <head>$/;"	function	line:3
+title	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <title>DRobertson DGM Portfolio<\/title>$/;"	function	line:4
+meta	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <meta charset="utf-8">$/;"	function	line:6
+meta	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">$/;"	function	line:7
+link	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <link rel="stylesheet" href="https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0-beta\/css\/bootstrap.min.css" integrity="sha384-\/Y6pD6FV\/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">$/;"	function	line:10
+link	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <link rel="stylesheet" type="text\/css" href="css\/style.css">$/;"	function	line:13
+body	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^  <body id="home" data-spy="scroll" data-target=".navbar">$/;"	function	line:15
+nav	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <nav class="navbar navbar-expand-lg navbar-inverse bg-inverse navFooter fixed-top">$/;"	function	line:18
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^      <div class="container">$/;"	function	line:19
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <a class="navbar-brand order-1 mr-0" href="#">$/;"	function	line:20
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <img src="img\/logoName.png" height="30" alt="Uriah">$/;"	function	line:21
+button	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">$/;"	function	line:23
+span	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <span class="glyphicon glyphicon-menu-down" aria-hidden="true"><\/span>$/;"	function	line:24
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">$/;"	function	line:26
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <div class="navbar-nav ">$/;"	function	line:27
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <a class="nav-item nav-link " href="#home">Home <span class="sr-only">(current)<\/span><\/a>$/;"	function	line:28
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <a class="nav-item nav-link" href="#about">About<\/a>$/;"	function	line:29
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <a class="nav-item nav-link" href="#projects">Projects<\/a>$/;"	function	line:30
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <a class="nav-item nav-link" href="#contact">Contact<\/a>$/;"	function	line:31
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <div class="jumbotron jumbotron-fluid">$/;"	function	line:39
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^      <div class="container text-sm-center pt-5">$/;"	function	line:40
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <img class="profile" src="img\/profile2.jpg" height="150em" alt="Profile Image">$/;"	function	line:41
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <h1 class="display-2 titleColor">Dustin Robertson<\/h1>$/;"	function	line:42
+p	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <p class="lead titleColor1">Web and App Development Degree Portfolio for Utah Valley University<\/p>$/;"	function	line:43
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <div id="about" class="container pt-4">$/;"	function	line:49
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^      <h1 class="display-4 text-center my-5 titleColor">About<\/h1>$/;"	function	line:50
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^      <div class="row">$/;"	function	line:51
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-lg">$/;"	function	line:52
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <h2 class="mb-4 titleColor1">About Me<\/h2>$/;"	function	line:53
+p	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <p>$/;"	function	line:54
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-lg">$/;"	function	line:58
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <h2 class="mb-4 titleColor1">Right Now<\/h2>$/;"	function	line:59
+p	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <p>$/;"	function	line:60
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-lg">$/;"	function	line:64
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <h2 class="mb-4 titleColor1">Long Term<\/h2>$/;"	function	line:65
+p	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <p>$/;"	function	line:66
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <div class="project-bg jumbotron-fluid">$/;"	function	line:74
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <div id="projects" class="container pt-4 projects">$/;"	function	line:75
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^      <h1 class="display-4 text-center my-5 titleColor">Projects<\/h1>$/;"	function	line:76
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^      <div class="row text-center">$/;"	function	line:77
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-md-6">$/;"	function	line:79
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <div class="card" style="width: 20rem;">$/;"	function	line:80
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <img class="card-img-top" src="img\/2240.jpg" alt="Card image cap">$/;"	function	line:81
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <div class="card-body">$/;"	function	line:82
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <h4 class="card-title">(Justinmind & Framer.js) Interaction Design<\/h4>$/;"	function	line:83
+br	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <br>$/;"	function	line:84
+p	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <p>$/;"	function	line:85
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a class="btn btn-primary" data-toggle="collapse" href="#dgm2240" aria-expanded="false" aria-controls="dgm2240">$/;"	function	line:86
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="collapse" id="dgm2240">$/;"	function	line:90
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="card card-body">$/;"	function	line:91
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a href="pdf\\AppProposal2240.pdf" target="_blank">Final App Proposal<\/a>$/;"	function	line:93
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-md-6">$/;"	function	line:100
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <div class="card" style="width: 20rem;">$/;"	function	line:101
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <img class="card-img-top" src="img\/2740.jpg" alt="Card image cap">$/;"	function	line:102
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <div class="card-body">$/;"	function	line:103
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <h4 class="card-title">(Adobe Creative Cloud & Sketchpad) Principles of Digital Design<\/h4>$/;"	function	line:104
+p	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <p>$/;"	function	line:105
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a class="btn btn-primary" data-toggle="collapse" href="#dgm2250" aria-expanded="false" aria-controls="dgm2250">$/;"	function	line:106
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="collapse" id="dgm2250">$/;"	function	line:110
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="card card-body">$/;"	function	line:111
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a href="https:\/\/vimeo.com\/103219512" target="_blank">After Effects Final<\/a>$/;"	function	line:113
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-md-6">$/;"	function	line:120
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <div class="card" style="width: 20rem;">$/;"	function	line:121
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <img class="card-img-top" src="img\/2271.png" alt="Card image cap">$/;"	function	line:122
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <div class="card-body">$/;"	function	line:123
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <h4 class="card-title">(InDesign & Sketchpad) Digital Media Design I<\/h4>$/;"	function	line:124
+br	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <br>$/;"	function	line:125
+p	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <p>$/;"	function	line:126
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a class="btn btn-primary" data-toggle="collapse" href="#dgm2271" aria-expanded="false" aria-controls="dgm2271">$/;"	function	line:127
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="collapse" id="dgm2271">$/;"	function	line:131
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="card card-body">$/;"	function	line:132
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a href="pdf\\FinalEvaluation2271.pdf" target="_blank">Final Site Evaluation<\/a>$/;"	function	line:134
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-md-6">$/;"	function	line:141
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <div class="card" style="width: 20rem;">$/;"	function	line:142
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <img class="card-img-top" src="img\/2250.png" alt="Card image cap">$/;"	function	line:143
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <div class="card-body">$/;"	function	line:144
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <h4 class="card-title">(Photoshop & Illustrator) Intro to Design<\/h4>$/;"	function	line:145
+br	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <br>$/;"	function	line:146
+p	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <p>$/;"	function	line:147
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a class="btn btn-primary" data-toggle="collapse" href="#xtra1" aria-expanded="false" aria-controls="xtra1">$/;"	function	line:148
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="collapse" id="xtra1">$/;"	function	line:152
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="card card-body">$/;"	function	line:153
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a href="img\/2250.png" target="_blank">Final Site Evaluation<\/a>$/;"	function	line:155
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-md-6">$/;"	function	line:162
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <div class="card" style="width: 20rem;">$/;"	function	line:163
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <img class="card-img-top" src="img\/2740-2.jpg" alt="Card image cap">$/;"	function	line:164
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <div class="card-body">$/;"	function	line:165
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <h4 class="card-title">(HTML & CSS) Responsive Design and Development<\/h4>$/;"	function	line:166
+p	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <p>$/;"	function	line:167
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a class="btn btn-primary" data-toggle="collapse" href="#dgm2740" aria-expanded="false" aria-controls="dgm2740">$/;"	function	line:168
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="collapse" id="dgm2740">$/;"	function	line:172
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="card card-body">$/;"	function	line:173
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a href="dgm2740\\index.html" target="_blank">Final Site<\/a>$/;"	function	line:175
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-md-6">$/;"	function	line:182
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <div class="card" style="width: 20rem;">$/;"	function	line:183
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <img class="card-img-top" src="img\/2760.jpg" alt="Card image cap">$/;"	function	line:184
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <div class="card-body">$/;"	function	line:185
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <h4 class="card-title">(JavaScript) Web Languages<\/h4>$/;"	function	line:186
+br	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <br>$/;"	function	line:187
+p	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <p>$/;"	function	line:188
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a class="btn btn-primary" data-toggle="collapse" href="#dgm2760" aria-expanded="false" aria-controls="dgm2760">$/;"	function	line:189
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="collapse" id="dgm2760">$/;"	function	line:193
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="card card-body">$/;"	function	line:194
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a href="dgm2760\\uriah.html" target="_blank">Final JavaScript Site<\/a>$/;"	function	line:196
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-md-6">$/;"	function	line:203
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <div class="card" style="width: 20rem;">$/;"	function	line:204
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <img class="card-img-top" src="img\/2780.jpg" alt="Card image cap">$/;"	function	line:205
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <div class="card-body">$/;"	function	line:206
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <h4 class="card-title">(Bootstrap & SASS) Development Frameworks<\/h4>$/;"	function	line:207
+p	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <p>$/;"	function	line:208
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a class="btn btn-primary" data-toggle="collapse" href="#dgm2780" aria-expanded="false" aria-controls="dgm2780">$/;"	function	line:209
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="collapse" id="dgm2780">$/;"	function	line:213
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="card card-body">$/;"	function	line:214
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a href="dgm2780\\index.html" target="_blank">Final Bootstrap Site<\/a>$/;"	function	line:216
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-md-6">$/;"	function	line:223
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <div class="card" style="width: 20rem;">$/;"	function	line:224
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <img class="card-img-top" src="img\/xtra2.png" alt="Card image cap">$/;"	function	line:225
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <div class="card-body">$/;"	function	line:226
+h	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <h4 class="card-title">(JavaScript) Rock Paper Scissors<\/h4>$/;"	function	line:227
+br	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <br>$/;"	function	line:228
+p	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <p>$/;"	function	line:229
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a class="btn btn-primary" data-toggle="collapse" href="#xtra2" aria-expanded="false" aria-controls="xtra2">$/;"	function	line:230
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="collapse" id="xtra2">$/;"	function	line:234
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <div class="card card-body">$/;"	function	line:235
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <a href="extra\\index.html" target="_blank">RPS<\/a>$/;"	function	line:237
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^      <div class="row">$/;"	function	line:244
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-lg flex-btn">$/;"	function	line:245
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <a href="pdf\\AppProposal2240.pdf" class="btn btn-lg active" role="button" aria-pressed="true">Resume<\/a>$/;"	function	line:246
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^      <div class="row py-3 container">$/;"	function	line:260
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-md-7">$/;"	function	line:261
+ul	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <ul class="nav">$/;"	function	line:262
+li	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <li class="nav-item">$/;"	function	line:263
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <a class="nav-link" href="https:\/\/linkedin.com\/in\/dustinurobertson">$/;"	function	line:264
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <img src="img\/linkedInIcon.png" height="30" alt="LinkedIn">$/;"	function	line:265
+li	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <li class="nav-item">$/;"	function	line:268
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <a class="nav-link" href="https:\/\/plus.google.com\/111277091726614678364">$/;"	function	line:269
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <img src="img\/googleIcon.png" height="30" alt="Google+">$/;"	function	line:270
+li	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^            <li class="nav-item">$/;"	function	line:273
+a	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^              <a class="nav-link" href="https:\/\/twitter.com\/DustyUriah">$/;"	function	line:274
+img	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^                <img src="img\/twitterIcon.png" height="30" alt="Twitter">$/;"	function	line:275
+div	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^        <div class="col-md text-md-right">$/;"	function	line:280
+small	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^          <small>&copy; 2017 Dustin Robertson<\/small>$/;"	function	line:281
+script	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <script src="https:\/\/code.jquery.com\/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr\/rE9\/Qpg6aAZGJwFDMVNA\/GpGFF93hXpG5KkN" crossorigin="anonymous"><\/script>$/;"	function	line:289
+script	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <script src="https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/popper.js\/1.11.0\/umd\/popper.min.js" integrity="sha384-b\/U6ypiBEHpOf\/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"><\/script>$/;"	function	line:290
+script	C:\Users\Uriah\Documents\GitHub\dustinur\index.html	/^    <script src="https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0-beta\/js\/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"><\/script>$/;"	function	line:291
