@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    let title = $("h1.title");
+    let title = $("#header h1");
 
     let card1 = $('.card1');
     let card2 = $('.card2');
