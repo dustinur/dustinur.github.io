@@ -30,6 +30,7 @@
 			color: $primary-color;
 			font-family: $alt-font;
 			font-size: 1em;
+			opacity: 1;
 		}
 
 		ul {
@@ -49,13 +50,13 @@
 					text-decoration: none;
 					color: $alt-color;
 					font-size: .5em + .5em;
-					
+
 					&:hover {
 						color: $primary-color;
 						transition: all .2s;
 					}
 				}
-			}	
+			}
 
 			li:last-child {
 				border: none;
