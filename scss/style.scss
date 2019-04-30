@@ -1,13 +1,9 @@
 // variables
 $main-dark: #100221;
 $main-dark-alt: #000;
-<<<<<<< HEAD
-$font-color: #fff;
-=======
 $main-light: #FFFDA5;
 $main-light-alt: #fff;
 $font-color: #999; 
->>>>>>> b574947cf5e708e1ccb2f9efcb842dc4da72c6bd
 
 
 
@@ -20,8 +16,8 @@ a {
   color: $main-light;
 }
 
-.project-bg {
-  background: black;
+.project-bg, .projects {
+  background: $main-dark-alt;
 
   .container.pt-4 {
   margin-top: 6em;
