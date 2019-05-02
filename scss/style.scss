@@ -1,11 +1,9 @@
 // variables
 $main-dark: #100221;
 $main-dark-alt: #000;
-$main-light: #FFFDA5;
+$main-light: #fffda5;
 $main-light-alt: #fff;
-$font-color: #999; 
-
-
+$font-color: #c8c8c8;
 
 body {
   background: $main-dark;
@@ -16,43 +14,34 @@ a {
   color: $main-light;
 }
 
-.project-bg, .projects {
+.project-bg,
+.projects {
   background: $main-dark-alt;
 
   .container.pt-4 {
-  margin-top: 6em;
-  padding-bottom: 5em;
+    margin-top: 6em;
+    padding-bottom: 5em;
 
     .flex-btn {
       display: flex;
       justify-content: center;
       padding-top: 4em;
 
-    .btn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: $main-dark;
-      background: $main-light;
-      width: 50%;
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $main-dark;
+        background: $main-light;
+        width: 50%;
       }
     }
   }
 }
 
-.navbar-link {
-  color: black;
-}
-.card {
-  background: $main-dark;
-  margin: 0 auto;
-  float: none;
-  margin-bottom: 1em;
-}
-
-.flex-btn {
-  display: flex;
-  justify-content: center;
+a:hover {
+  color: $main-light;
+  text-decoration: underline;
 }
 
 .btn {
@@ -61,43 +50,59 @@ a {
   color: $main-dark-alt;
 }
 
-.btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
-    background-color: $main-light;
-    background-image: none;
-    border-color: $main-light;
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: $main-light;
+  background-image: none;
+  border-color: $main-light;
 }
 
 .btn-primary:hover {
-    border-color: $main-light;
-    background-color: $main-light;
-    border-color: $main-light;
+  border-color: $main-light;
+  background-color: $main-light;
+  border-color: $main-light;
 }
 
-.btn.active, .btn:active {
-    background-image: none;
+.btn.active,
+.btn:active {
+  background-image: none;
 }
 
-.btn:focus, .btn:hover {
-    text-decoration: none;
+.btn:focus,
+.btn:hover {
+  text-decoration: none;
 }
 
-a:hover {
-    color: $main-light;
-    text-decoration: underline;
+.card {
+  background: $main-dark;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 1em;
 }
 
+.card-title,
+.card-subtitle {
+  color: $main-light-alt;
+}
+.flex-btn {
+  display: flex;
+  justify-content: center;
+}
 
+.footer-name {
+  padding-top: 0.5em;
+}
 .jumbotron {
   background: $main-dark url("../img/nmJumbo2.jpg") no-repeat center bottom;
   height: 100%;
   background-size: auto;
   overflow: hidden;
-  box-shadow: inset 0 0 1200px 300px rgba(0,0,0,.2);
+  box-shadow: inset 0 0 1200px 300px rgba(0, 0, 0, 0.2);
 }
 
-.navFooter {
-  color: white;
-  background: $main-dark;
+.navbar-link {
+  color: black;
 }
 
 .navbar-toggler {
@@ -105,7 +110,10 @@ a:hover {
   color: white;
 }
 
-
+.navFooter {
+  color: white;
+  background: $main-dark;
+}
 
 .profile {
   border-radius: 5em;
@@ -119,9 +127,4 @@ a:hover {
 .titleColor1 {
   color: $main-light-alt;
   text-align: center;
-}
-
-
-.footer-name {
-  padding-top: .5em;
 }

@@ -1,68 +1,59 @@
 // Header SCSS
-
-// html {
-// 	color: white;
-// 	background: #000;
-// }
-
 .container {
-	margin: 0 auto;
-	width: 100%;
+  margin: 0 auto;
+  width: 100%;
 
-	@include desktop {
-		width: 940px;
-	}
+  @include desktop {
+    width: 940px;
+  }
 }
 
 .flex-container {
-	width: 100%;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 #header {
+  nav {
+    h1 {
+      color: $primary-color;
+      font-family: $alt-font;
+      font-size: 1em;
+      opacity: 1;
+    }
 
-	nav {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
 
-		h1 {
-			color: $primary-color;
-			font-family: $alt-font;
-			font-size: 1em;
-			opacity: 1;
-		}
+      @include flex-item();
 
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
+      li {
+        padding: 0 1em;
+        border-right: 1px solid teal;
 
-			@include flex-item();
+        // Partials
+        a {
+          font-family: $alt-font;
+          text-decoration: none;
+          color: $alt-color;
+          font-size: 0.5em + 0.5em;
 
-			li {
-				padding: 0 1em;
-				border-right: 1px solid teal;
+          &:hover {
+            color: $primary-color;
+            transition: all 0.2s;
+          }
+        }
+      }
 
-				// Partials
-				a {
-					font-family: $alt-font;
-					text-decoration: none;
-					color: $alt-color;
-					font-size: .5em + .5em;
-
-					&:hover {
-						color: $primary-color;
-						transition: all .2s;
-					}
-				}
-			}
-
-			li:last-child {
-				border: none;
-				padding-right: 0;
-			}
-		}
-	}
+      li:last-child {
+        border: none;
+        padding-right: 0;
+      }
+    }
+  }
 }
 // #header
