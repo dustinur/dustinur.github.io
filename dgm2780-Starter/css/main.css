@@ -20,7 +20,7 @@ Data offset to allow it to disappear then reapear
 
 .section1 {
   width: 100%;
-  background: #112717 url("../img/spaJumbo2.jpg") no-repeat center;
+  background: #112717 url("../img/spaJumbo-2.jpg") no-repeat center;
 }
 
 .section2 {
@@ -115,7 +115,7 @@ a.btn.btn-primary {
 
 /* Jumbotron & Thumbnails */
 .jumbotron {
-  background: white url("../img/spaJumbo1.jpg") no-repeat 20% 50%;
+  background: white url("../img/spaJumbo-1.jpg") no-repeat 20% 50%;
   height: 100%;
   background-size: 100%;
   overflow: hidden;
