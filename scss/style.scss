@@ -32,19 +32,19 @@ a {
         justify-content: center;
         align-items: center;
         color: $main-light;
-        background: $main-dark;
+        background: $main-dark-alt;
         width: 50%;
       }
       .btn:hover {
-        color: $main-dark;
-        background: $main-light;
+        color: $main-light-alt;
+        // background: $main-light-alt;
       }
     }
   }
 }
 
 a:hover {
-  color: $main-light;
+  color: $main-light-alt;
   text-decoration: underline;
 }
 
