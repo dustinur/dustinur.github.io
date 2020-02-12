@@ -1,6 +1,6 @@
 // variables
-$main-dark: #100221;
-$main-dark-alt: #000;
+$main-dark: #6687b8;
+$main-dark-alt: rgb(140, 150, 173);
 $main-light: #fffda5;
 $main-light-alt: #fff;
 $font-color: #c8c8c8;
@@ -94,7 +94,7 @@ a:hover {
   padding-top: 0.5em;
 }
 .jumbotron {
-  background: $main-dark url("../img/nmJumbo2.jpg") no-repeat center bottom;
+  background: $main-dark url("../img/nmJumbo1.jpg") no-repeat left bottom;
   height: 100%;
   background-size: auto;
   overflow: hidden;
