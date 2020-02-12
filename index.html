@@ -1,392 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>DRobertson DGM Portfolio</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
+<head>
+  <title>DRobertson DGM Portfolio</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Local CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-  </head>
-  <body id="home" data-spy="scroll" data-target=".navbar">
-    <!-- navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-inverse bg-inverse navFooter fixed-top"
-    >
-      <div class="container">
-        <a class="navbar-brand order-1 mr-0" href="#">
-          <img src="img/logoName.png" height="30" alt="Uriah" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ">
-            <a class="nav-item nav-link " href="#home"
-              >Home <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="#about">About</a>
-            <a class="nav-item nav-link" href="#projects">Projects</a>
-            <a class="nav-item nav-link" href="#contact">Contact</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- /navbar -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
 
-    <!-- jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container text-sm-center pt-5">
-        <img
-          class="profile"
-          src="img/profile2.jpg"
-          height="150em"
-          alt="Profile Image"
-        />
-        <h1 class="display-2 titleColor">Dustin Robertson</h1>
-        <p class="lead titleColor1">Web and App Development Portfolio</p>
-      </div>
-    </div>
-    <!-- /jumbotron -->
+  <!-- Local CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
 
-    <!-- about section -->
-    <div id="about" class="container pt-4">
-      <h1 class="display-4 text-center my-5 titleColor">About</h1>
-      <div class="row">
-        <div class="col-lg">
-          <p>
-            My name is Dustin Robertson. I am a current web developer at Utah Valley University and recent graduate within their Web and App Development BS program. I recently received my full-stack development certification from DevPoint Labs. My emphasis has been in front-end development with introductions to UX design. Daily responsibilities as a UVU developer include:
-          </p>
-          <ul>
-            <li>working within our OU Campus CMS</li>
-            <li>Bootstrap</li>
-            <li>JavaScript and JQuery UI development</li>
-            <li>Handlebars.js</li>
-            <li>design templates</li>
-            <li>faculty CMS training</li>
-          </ul>
+<body id="home" data-spy="scroll" data-target=".navbar">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-inverse bg-inverse navFooter fixed-top">
+    <div class="container">
+      <a class="navbar-brand order-1 mr-0" href="#">
+        <img src="img/logoName.png" height="30" alt="Uriah" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a class="nav-item nav-link " href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#projects">Projects</a>
+          <!-- <a class="nav-item nav-link" href="#contact">Contact</a> -->
         </div>
       </div>
     </div>
+  </nav>
+  <!-- /navbar -->
 
-    <!-- projects -->
-    <div id="projects" class="projects">
-      <div class="container pt-4">
-        <h1 class="display-4 text-center my-5 titleColor">
-          Projects
-        </h1>
-
-        <div class="row text-center">
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <div class="card h-100">
-              <img
-                class="card-img-top"
-                src="img/witcher-db.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  Witcher Character DB
-                </h4>
-                <h6 class="card-subtitle pb-2">
-                  Vue.js | GraphQL | Node.js | Express
-                </h6>
-                <p class="card-text pt-2">
-                  Character database with a Vue/Apollo frontend and Prisma data
-                  modeling tool with PostgreSQL data store. Vue/AXIOS is also
-                  used to interact with a RESTful API using Node.js, Express and
-                  MongoDB Atlas.
-                </p>
-                <a
-                  href="https://drobertson4790.netlify.com/"
-                  target="_blank"
-                  class="card-link"
-                  >View</a
-                >
-                <a
-                  href="https://github.com/dustinur/graphql-vue-drobertson"
-                  target="_blank"
-                  class="card-link"
-                  >GitHub</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <div class="card h-100">
-              <img
-                class="card-img-top"
-                src="img/db-picker.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  Datepicker List Filter
-                </h4>
-                <h6 class="card-subtitle pb-2">
-                  Bootstrap | JavaScript | JQuery
-                </h6>
-                <p class="card-text pt-2">
-                  Basic front-end jquery search filter for event listings.
-                  Artists, dates and genres are added as data attributes.
-                  Expired listings are hidden.
-                </p>
-                <a
-                  class="card-link"
-                  href="https://codepen.io/dustinur/pen/vPEzEK"
-                  target="_blank"
-                  >View</a
-                >
-                <a
-                  class="card-link"
-                  href="https://github.com/dustinur/datepicker-filter"
-                  target="_blank"
-                  >GitHub</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <div class="card h-100">
-              <img
-                class="card-img-top"
-                src="img/2780.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  Development Frameworks
-                </h4>
-                <h6 class="card-subtitle pb-2">
-                  Bootstrap | SCSS
-                </h6>
-                <p class="card-text pt-2">
-                  Intro course focused on the syntax and usage of SCSS as well
-                  as front-end frameworks like Bootstrap.
-                </p>
-                <a
-                  href="dgm2780-Starter\index.html"
-                  class="card-link"
-                  target="_blank"
-                  >View</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <div class="card h-100">
-              <img
-                class="card-img-top"
-                src="img/2740-2.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  Responsive Design and Development
-                </h4>
-                <h6 class="card-subtitle pb-2">
-                  HTML | CSS
-                </h6>
-                <p class="card-text pt-2">
-                  This class introduced responsive design and
-                  preprocessors.(Project1)
-                </p>
-                <a href="dgm2740\index.html" target="_blank">View</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <div class="card h-100">
-              <img
-                class="card-img-top"
-                src="img/2740.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  Responsive Design and Development
-                </h4>
-                <h6 class="card-subtitle pb-2">
-                  HTML | CSS | GSAP
-                </h6>
-                <p class="card-text pt-2">
-                  Responsive design and preprocessors. Introduction to GreenSock
-                  Animation Platform. (Project2)
-                </p>
-                <a href="2780-scss\index.html" target="_blank">View</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <div class="card h-100">
-              <img
-                class="card-img-top"
-                src="img/noorda.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  UVU School of the Arts
-                </h4>
-                <h6 class="card-subtitle pb-2">
-                  HTML | CSS | JS 
-                </h6>
-                <p class="card-text pt-2">
-                  UVU School of the Arts event center site.
-                </p>
-                <a href="https://www.uvu.edu/thenoorda/" target="_blank">View</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <div class="card h-100">
-              <img
-                class="card-img-top"
-                src="img/2271.png"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  Digital Media Design I
-                </h4>
-                <h6 class="card-subtitle pb-2">
-                  InDesign | Sketchpad
-                </h6>
-                <p class="card-text pt-2">
-                  I learned the importance of understanding your client
-                  demographic. How a 65 year old and 16 year old determine
-                  quality is different. I see the importance of spacing and
-                  organization. The use of the grid system specifically is
-                  something that keeps your content distinguishable.(DGM2271)
-                </p>
-                <a href="pdf\FinalEvaluation2271.pdf" target="_blank">View</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <div class="card h-100">
-              <img
-                class="card-img-top"
-                src="img/2250.png"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  Intro to Design
-                </h4>
-                <h6 class="card-subtitle pb-2">
-                  Photoshop | Illustrator
-                </h6>
-                <p class="card-text pt-2">
-                  Business card design practice.
-                </p>
-                <a href="img/2250.png" target="_blank">View</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <div class="card h-100">
-              <img
-                class="card-img-top"
-                src="img/xtra2.png"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  Rock Paper Scissors
-                </h4>
-                <h6 class="card-subtitle pb-2">
-                  JavaScript
-                </h6>
-                <p class="card-text pt-2">
-                  A barebones Rock, Paper, Scissors game that implements basic
-                  JavaScript and Jquery.
-                </p>
-                <a href="extra\index.html" class="card-link" target="_blank"
-                  >View</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg flex-btn">
-            <a
-              href="pdf\Dustin-Robertson-Resume.pdf"
-              target="_blank"
-              class="btn btn-lg active"
-              role="button"
-              aria-pressed="true"
-              >Resume</a
-            >
-          </div>
-        </div>
-      </div>
+  <!-- jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container text-sm-center pt-5">
+      <img class="profile" src="img/profile2.jpg" height="150em" alt="Profile Image" />
+      <h1 class="display-2 titleColor">Dustin Robertson</h1>
+      <h2 class="lead titleColor1">Web and App Development Portfolio</h2>
     </div>
+  </div>
+  <!-- /jumbotron -->
 
-    <!-- /projects -->
-
-    <!-- footer -->
-    <div class="row py-3container">
-      <div class="col-md-12">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="https://linkedin.com/in/dustinurobertson">
-              <img src="img/linkedInIcon.png" height="30" alt="LinkedIn" />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://plus.google.com/111277091726614678364"
-            >
-              <img src="img/googleIcon.png" height="30" alt="Google+" />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://twitter.com/DustyUriah">
-              <img src="img/twitterIcon.png" height="30" alt="Twitter" />
-            </a>
-          </li>
+  <!-- about section -->
+  <div id="about" class="container pt-4">
+    <h1 class="display-4 text-center my-5 titleColor">About</h1>
+    <div class="row">
+      <div class="col-lg">
+        <p>
+          I am a web developer at Utah Valley University and recent graduate within their Web and App Development BS
+          program. I recently received my full-stack development certification from DevPoint Labs. My emphasis has been
+          in front-end development with experience in UX design. Daily responsibilities as a UVU developer include:
+        </p>
+        <ul>
+          <li>Working within our OU Campus CMS</li>
+          <li>Bootstrap</li>
+          <li>JavaScript and JQuery UI development</li>
+          <li>Handlebars.js</li>
+          <li>Template design</li>
+          <li>Faculty CMS training</li>
         </ul>
       </div>
     </div>
-  </body>
+  </div>
 
-  <!-- Optional JavaScript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"
-  ></script>
+  <!-- projects -->
+  <div id="projects" class="projects">
+    <div class="container pt-4">
+      <h2 class="display-4 text-center my-5 titleColor">
+        Projects
+      </h2>
+      <h3 class="text-center my-5 lead titleColor1">
+        Personal and Profesional
+      </h3>
+
+      <div class="row text-center">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/witcher-db.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">
+                Witcher Character DB
+              </h4>
+              <h6 class="card-subtitle pb-2">
+                Vue.js | GraphQL | Node.js | Express
+              </h6>
+              <p class="card-text pt-2">
+                Character database with a Vue/Apollo frontend and Prisma data
+                modeling tool with PostgreSQL data store. Vue/AXIOS is also
+                used to interact with a RESTful API using Node.js, Express and
+                MongoDB Atlas.
+              </p>
+              <a href="https://drobertson4790.netlify.com/" target="_blank" class="card-link">View</a>
+              <a href="https://github.com/dustinur/graphql-vue-drobertson" target="_blank" class="card-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/db-picker.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">
+                Datepicker List Filter
+              </h4>
+              <h6 class="card-subtitle pb-2">
+                Bootstrap | JavaScript | JQuery
+              </h6>
+              <p class="card-text pt-2">
+                Basic front-end jquery search filter for event listings.
+                Artists, dates and genres are added as data attributes.
+                Expired listings are hidden.
+              </p>
+              <a class="card-link" href="https://codepen.io/dustinur/pen/EBMpXq" target="_blank">View</a>
+              <a class="card-link" href="https://github.com/dustinur/datepicker-filter" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/noorda.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">
+                UVU School of the Arts
+              </h4>
+              <h6 class="card-subtitle pb-2">
+                HTML | CSS | JS
+              </h6>
+              <p class="card-text pt-2">
+                UVU School of the Arts event center site.
+              </p>
+              <a href="https://www.uvu.edu/thenoorda/" target="_blank">View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/wasatch.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">
+                UVU Wasatch
+              </h4>
+              <h6 class="card-subtitle pb-2">
+                HTML | CSS
+              </h6>
+              <p class="card-text pt-2">
+                Website for UVU's Wasatch Campus.
+              </p>
+              <a href="https://www.uvu.edu/wasatch/" target="_blank">View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/soa-blog.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">
+                UVU Custom Blog
+              </h4>
+              <h6 class="card-subtitle pb-2">
+                HTML | JSON | Handlebars.js
+              </h6>
+              <p class="card-text pt-2">
+                The UVU School of the Arts blog page built within our custom blog system. It works by aggregating JSON,
+                using Handlebars to output content.
+              </p>
+              <a href="https://www.uvu.edu/arts/applause/" target="_blank">View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/sbdc.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">
+                UVU SBDC
+              </h4>
+              <h6 class="card-subtitle pb-2">
+                HTML | CSS | JS
+              </h6>
+              <p class="card-text pt-2">
+                Website for UVU's Small Business Development Center.
+              </p>
+              <a href="https://www.uvu.edu/sbdc/" class="card-link" target="_blank">View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/2740-2.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">
+                Responsive Design and Development I
+              </h4>
+              <h6 class="card-subtitle pb-2">
+                HTML | CSS
+              </h6>
+              <p class="card-text pt-2">
+                This class introduced responsive design and
+                preprocessors.(Project1)
+              </p>
+              <a href="dgm2740\index.html" target="_blank">View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/2740.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">
+                Responsive Design and Development II
+              </h4>
+              <h6 class="card-subtitle pb-2">
+                HTML | CSS | GSAP
+              </h6>
+              <p class="card-text pt-2">
+                Responsive design and preprocessors. Introduction to GreenSock
+                Animation Platform. (Project2)
+              </p>
+              <a href="2780-scss\index.html" target="_blank">View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/2780.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">
+                Development Frameworks
+              </h4>
+              <h6 class="card-subtitle pb-2">
+                Bootstrap | SCSS
+              </h6>
+              <p class="card-text pt-2">
+                Intro course focused on the syntax and usage of SCSS as well
+                as front-end frameworks like Bootstrap.
+              </p>
+              <a href="dgm2780-Starter\index.html" class="card-link" target="_blank">View</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg flex-btn">
+          <a href="pdf\Dustin-Robertson-Resume.pdf" target="_blank" class="btn btn-lg active" role="button"
+            aria-pressed="true">Resume</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- /projects -->
+
+  <!-- footer -->
+  <div class="row py-3 container">
+  </div>
+</body>
+
+<!-- Optional JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </html>

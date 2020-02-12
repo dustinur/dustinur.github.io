@@ -1,9 +1,9 @@
 // variables
-$main-dark: #6687b8;
-$main-dark-alt: rgb(140, 150, 173);
+$main-dark: #323c5e;
+$main-dark-alt: #3a5772;
 $main-light: #fffda5;
 $main-light-alt: #fff;
-$font-color: #c8c8c8;
+$font-color: #e6e6e6;
 
 body {
   background: $main-dark;
@@ -31,9 +31,13 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
+        color: $main-light;
+        background: $main-dark;
+        width: 50%;
+      }
+      .btn:hover {
         color: $main-dark;
         background: $main-light;
-        width: 50%;
       }
     }
   }
@@ -44,12 +48,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.btn {
-  border-color: $main-light;
-  background-color: $main-light;
-  color: $main-dark-alt;
-}
-
 .btn-primary.active,
 .btn-primary:active,
 .show > .btn-primary.dropdown-toggle {
@@ -58,11 +56,11 @@ a:hover {
   border-color: $main-light;
 }
 
-.btn-primary:hover {
-  border-color: $main-light;
-  background-color: $main-light;
-  border-color: $main-light;
-}
+// .btn-primary:hover {
+//   border-color: $main-light;
+//   background-color: $main-light;
+//   border-color: $main-light;
+// }
 
 .btn.active,
 .btn:active {
