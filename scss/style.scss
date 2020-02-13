@@ -6,7 +6,7 @@ $main-light-alt: #fff;
 $font-color: #e6e6e6;
 
 body {
-  background: $main-dark;
+  background: $main-light-alt;
   color: $font-color;
 }
 
@@ -56,12 +56,6 @@ a:hover {
   border-color: $main-light;
 }
 
-// .btn-primary:hover {
-//   border-color: $main-light;
-//   background-color: $main-light;
-//   border-color: $main-light;
-// }
-
 .btn.active,
 .btn:active {
   background-image: none;
@@ -73,16 +67,30 @@ a:hover {
 }
 
 .card {
-  background: $main-dark;
+  background: $main-light-alt;
   margin: 0 auto;
   float: none;
   margin-bottom: 1em;
 }
 
+.card-text { 
+  color: $main-dark-alt;
+ }
+
 .card-title,
-.card-subtitle {
-  color: $main-light-alt;
+.card-subtitle,
+.card-link {
+  color: $main-dark;
 }
+
+.card-link {
+  font-weight: 700;
+}
+
+.card-link:hover { 
+  color: $main-dark-alt;
+}
+
 .flex-btn {
   display: flex;
   justify-content: center;
@@ -110,7 +118,7 @@ a:hover {
 
 .navFooter {
   color: white;
-  background: $main-dark;
+  background: $main-dark-alt;
 }
 
 .profile {
@@ -125,4 +133,8 @@ a:hover {
 .titleColor1 {
   color: $main-light-alt;
   text-align: center;
+}
+
+.titleColor2 {
+  color: $main-dark;
 }
