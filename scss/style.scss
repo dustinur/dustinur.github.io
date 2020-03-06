@@ -75,11 +75,14 @@ body {
 }
 
 .card-link {
-  font-weight: 700;
+  font-size: 1.25em;
+  font-weight: 600;
+  color: $main-dark;
 }
 
+
 .card-link:hover { 
-  color: $main-dark-alt;
+  color: #0056b3;
 }
 
 .flex-btn {
